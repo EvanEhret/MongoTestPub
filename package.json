@@ -2,15 +2,16 @@
   "name": "ckmongotest",
   "version": "1.0.0",
   "description": "CKs Express Mongo Test on Render",
-  "main": "testmongo.js",
-  "repository": "https://github.com/ckorpio/MongoTest",
+  "main": "authentication.js",
+  "repository": "https://github.com/EvanEhret/MongoTestPub",
   "author": "CK",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node testadd.js"
+    "start": "node authentication.js"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "mongodb": "^5.1.0"
   },
